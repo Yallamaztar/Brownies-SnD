@@ -47,9 +47,9 @@ LUI.createMenu.MainMenu = function (LocalClientIndex)
 	modText:setAlpha(0.5)
 	MainMenuWidget:addElement(modText)
 
-	local fullText = Engine.Localize("^5zZzzZZ...")
+	local fullText = Engine.Localize("^5zZzzZZzzzZZZz...")
 	local currentIndex = 1
-	local typingSpeed = 250
+	local typingSpeed = 210
 
 	local function TypeWriterTick()
 		if currentIndex <= string.len(fullText) then
